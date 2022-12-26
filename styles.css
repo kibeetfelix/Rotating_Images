@@ -17,3 +17,10 @@ body {
     transform: perspective(1000px)rotate(0deg);
     position: relative;
 }
+
+.image-container span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(calc(var(--i)*45deg));
+}
