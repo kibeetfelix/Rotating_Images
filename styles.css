@@ -9,3 +9,11 @@ body {
     background-color: pink;
     overflow: hidden;
 }
+
+.image-container {
+    height: 200px;
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: perspective(1000px)rotate(0deg);
+    position: relative;
+}
