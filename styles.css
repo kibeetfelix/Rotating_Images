@@ -41,10 +41,22 @@ body {
 .btn {
     position: absolute;
     bottom: -80px;
-    background-color: yellow;
+    background-color: grey;
     color: black;
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+#Prev {
+    left: 20%;
+}
+
+#Next {
+    right: 20%;
 }
