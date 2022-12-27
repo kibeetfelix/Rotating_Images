@@ -32,3 +32,19 @@ body {
     position: absolute;
     width: 100%;
 }
+
+.button-container {
+    position: relative;
+    width: 80%;
+}
+
+.btn {
+    position: absolute;
+    bottom: -80px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
